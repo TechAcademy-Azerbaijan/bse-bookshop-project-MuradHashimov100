@@ -1,0 +1,89 @@
+header h2{
+    text-align: center;
+    color:#109E97;
+    border-bottom: 3px solid black;
+    padding-bottom: 2rem;
+    font-family: "Lobster";
+    font-style: "Regular";
+    font-size: 49px;
+    }
+header{
+    margin-bottom: 1rem;
+}
+.sct1 p{
+    color: #000;
+    font-size: 23px;
+    font-weight: 500;
+}
+hr{
+    background-color: #000;
+    height: 3px;
+}
+.table{
+    margin-bottom: 3rem;
+}
+.sct1 .qiymet{
+    padding-bottom: 1rem;
+}
+.sct1 .qiymet span:first-of-type{
+    color: #008000;
+    font-size:  25px;
+    font-family: "Roboto";
+    font-style: "Regular";
+}
+.sct1 .qiymet span:last-of-type{
+    color: #ff0000;
+}
+.bl_cont{
+    background-color: #000;
+    color: #fff;
+    padding: 35px 30px;
+    margin-bottom: 2rem;
+}
+.bl_cont p{
+    text-align: right;
+}
+.lastcont .imgcnt{
+    float: left;
+    width: 30%;
+}
+.middlecnt{
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+.lastcont .imgcnt1{
+    float: right;
+    width: 30%;
+    display: block;
+}
+.lastcont .imgcnt1 img{
+    float: right;
+}
+.lastcont{
+    
+    width: 100%;
+    height: 450px;
+}
+.lastcont .middlecnt button{
+    background-color: #109E97;
+    display: inline-block;
+    color:#fff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.links ul li {
+    list-style: none;
+}
+.links ul li  a{
+    color:#0000EE;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    color:#fff;
+    background-color: #109E97;
+    padding: 34px 36px;
+}
