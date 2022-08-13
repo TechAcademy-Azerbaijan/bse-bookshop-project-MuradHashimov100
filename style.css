@@ -1,65 +1,129 @@
-.box1{
-    width: 250px;
-    height: 100px;
-    background-color:lightskyblue;
-    max-width: 500px;
-    padding: 20px 30px;
-    border: 3px dotted blue;
-    margin: 20px 30px;
+header h2{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 2rem;
+    font-family: "Lobster";
+    font-style: "Regular";
+    font-size: 49px;
+    color: #fff;
+    }
+header{
+    background-color: #109E97;
 }
-.box2{
-    width: 20%;
-    height: 100px;
-    background-color:lightsalmon;
-    padding-left: 15px;
-    border: 6px double red;
-    margin: 5px 10px 15px 20px;
+main{
+    width: 70%;
+    margin:0;
 }
-.box3{
+
+.socual_links {
+    position: absolute;
+    right: 1rem;
+    top: 12rem;
+}
+.socual_links i{
+    background-color:#109E97;
+    color:#fff;
+    border-radius: 50px;
+    display: block;
+    padding: 10px;
+    margin:  2rem 0;
+}
+nav{
+    width: 100%;
+    background-color: #109E97;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    display: flex;
+    max-width: 1000px;
+}
+nav ul li a{
+    color: #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    display: inline-block;
+    padding: 21px 45px;
+}
+.slider{
+    background-image: url('../bse-bookshop-project-MuradHashimov100/bgcolor.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider .boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+}
+.slider .boxes .box1{
+    width: 45%;
+    
+}
+.slider .boxes .box2{
+    width: 35%;
+}
+.box-img{
     width: 300px;
-    height: 100px;
-    background-color: lightseagreen;
-    padding: 5px 10px 20px 25px;
-    border: 3px solid green;
-    margin: 30px 20px;
+    margin: 0 auto;
 }
-
-.static{
-    background-color: pink;
-    width: 250px;
-    height: 150px;
+.left_img{
+    width: 100%;
 }
-.relative{
-    background-color: aqua;
-    width: 250px;
-    height: 150px;
-    position: relative;
-    left: 100px;
-    top: 20px;
+.slider .boxes .box2 p{
+    padding-bottom: 2rem;
 }
-.fixed{
-    background-color: lightcoral;
-    width: 250px;
-    height: 150px;
-    position: fixed;
-    left: 300px;
-    top: 20px;
+.slider .boxes .box2 a{
+    background-color: #109E97;
+    color: #fff;
+    padding:  10px 19px;
 }
-
-.parent{
-    background-color: green;
-    width: 450px;
-    height: 150px;
-    position: relative;
-    left: 300px;
-    top: 100px;
+/* books */
+.kibtext{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 2rem;
 }
-.child{
-    background-color: blue;
-    width: 50px;
-    height: 50px;
-    position: relative;
-    left: 80px;
-    top: 50px;
+.books{
+    width: 80%;
+    margin: 3rem auto;
+    border:  3px solid #000;
 }
-
+.books .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 52px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.books .content .box .img{
+    width: 150px;
+    height: 227px;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+.books .content .box p{
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    padding-bottom:1rem;
+}
+.books .content .box .img img{
+    width: 100%;
+}
+.books .content .box{
+    width: 200px;
+    height: 344px;
+    border: 3px solid #000;
+    padding: 51px 31px;
+    text-align: center;
+}
+/* books */
+footer{
+    text-align: center;
+    color:#fff;
+    background-color: #109E97;
+    padding: 34px 36px;
+}
