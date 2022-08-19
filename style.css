@@ -39,17 +39,35 @@ nav ul {
     display: flex;
     max-width: 1000px;
 }
+nav ul li:first-child{
+    border-left: 1px solid #fff;
+}
+nav ul li:nth-child(4) a{
+    background-color: #0E524E;
+    color: #fff !important;
+    cursor: default;
+}
+nav ul li:not(:nth-child(4)):hover a{
+    color:#0E524E;
+    background-color: #fff;
+    cursor: pointer;
+}
+/* nav ul li:nth-child(4):hover 
+nav ul li:nth-child(4) a{
+    color: #0E524E !important;
+} */
+nav ul li a:visited{
+    color: #0E524E;
+}
 nav ul li a{
     color: #fff;
-    border-left: 1px solid #fff;
     border-right: 1px solid #fff;
     display: inline-block;
     padding: 21px 45px;
+    font-size: 16px;
 }
 .slider{
-    background-image: url('../bse-bookshop-project-MuradHashimov100/bgcolor.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding-bottom: 5rem;
 }
 .slider .boxes{
     display: flex;
@@ -58,11 +76,19 @@ nav ul li a{
     gap:100px;
 }
 .slider .boxes .box1{
-    width: 45%;
+    width: 35%;
     
+}
+.slider .boxes .box1  .box-img{
+    width: 206px;
+    height: 222px;
+}
+.slider .boxes .box1  .box-img .left_img{
+    width: 100%;
 }
 .slider .boxes .box2{
     width: 35%;
+    position: relative;
 }
 .box-img{
     width: 300px;
@@ -72,58 +98,62 @@ nav ul li a{
     width: 100%;
 }
 .slider .boxes .box2 p{
-    padding-bottom: 2rem;
+    height: 250px;
+    padding-bottom: 5rem;
+    text-align: right;
+    overflow-y: scroll;
+    direction: rtl;
 }
 .slider .boxes .box2 a{
     background-color: #109E97;
     color: #fff;
     padding:  10px 19px;
-}
-/* books */
-.kibtext{
-    text-align: center;
-    font-size: 32px;
+    position: absolute;
     margin-top: 2rem;
-}
-.books{
-    width: 80%;
-    margin: 3rem auto;
-    border:  3px solid #000;
-}
-.books .content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 32px 52px;
-    gap: 50px;
-    flex-wrap: wrap;
-}
-.books .content .box .img{
-    width: 150px;
-    height: 227px;
-    margin: 0 auto;
-    padding-bottom: 1rem;
-}
-.books .content .box p{
-    font-size: 15px;
-    color: #000;
-    font-weight: bold;
-    padding-bottom:1rem;
-}
-.books .content .box .img img{
-    width: 100%;
-}
-.books .content .box{
-    width: 200px;
-    height: 344px;
-    border: 3px solid #000;
-    padding: 51px 31px;
-    text-align: center;
+    right: 0;
 }
 /* books */
+table{
+    width: 80%;
+    margin:0 auto;
+    margin-bottom: 5rem;
+    border-collapse: collapse;
+}
+table tr:not(:last-child){
+    border-bottom: 1px solid red;
+}
+/* books */
+/* section 2 */
+
 footer{
     text-align: center;
     color:#fff;
     background-color: #109E97;
     padding: 34px 36px;
+}
+.books2{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+.books2 .boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.books2 .boxes .box2{
+    text-align: center;
+}
+.books2 .boxes .box2 a{
+    background-color: #109E97;
+    color: #fff;
+    padding: 10px 19px;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+textarea{
+    opacity: 0.5;
+}
+.name:focus{
+    background-color: yellow;
 }
