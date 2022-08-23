@@ -157,3 +157,8 @@ textarea{
 .name:focus{
     background-color: yellow;
 }
+
+.books .content{
+    display: flex;
+    justify-content: space-between;
+}

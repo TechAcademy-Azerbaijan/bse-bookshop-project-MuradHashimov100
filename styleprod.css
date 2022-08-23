@@ -1,0 +1,196 @@
+header h2{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 2rem;
+    font-family: "Lobster";
+    font-style: "Regular";
+    font-size: 49px;
+    color: #fff;
+    }
+header{
+    background-color: #109E97;
+    width: 100%;
+}
+/* Main div */
+.content{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Main div */
+
+.socual_links {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-25%);
+}
+.socual_links i{
+    background-color:#109E97;
+    color:#fff;
+    border-radius: 50px;
+    display: block;
+    font-size: 3rem;
+    padding: 20px;
+    margin:  2rem 0;
+}
+nav{
+    background-color: #109E97;
+    margin: 1rem 0;
+}
+nav ul {
+    display: flex;
+    width: 80%;
+    margin:  0 auto;
+    justify-content: space-between;
+}
+
+
+
+nav ul li{
+    display: flex;
+    flex: auto;
+}
+nav ul li a{
+    color: #fff;
+    border-right: 1px solid #fff;
+    display: inline-block;
+    padding: 21px 45px;
+    flex: auto;
+    text-align: center;
+    font-size: 16px;
+
+}
+nav ul li:first-child{
+    border-left: 1px solid #fff;
+}
+nav ul li:nth-child(4) a{
+    background-color: #0E524E;
+    color: #fff !important;
+    cursor: default;
+}
+nav ul li:hover a{
+    color:#0E524E;
+    background-color: #fff;
+    cursor: pointer;
+}
+nav ul li:nth-child(4):hover 
+nav ul li:nth-child(4) a{
+    color: #0E524E !important;
+}
+nav ul li a:visited{
+    color: #0E524E;
+}
+
+/* books */
+.slider{
+    /* background-color: green; */
+    margin-top: 2rem;
+}
+.slider .boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.slider .boxes .box1{   
+    width: 30%;
+
+}
+.slider .boxes .box1  .box-img{
+    width:300px;
+    height: 450px;
+}
+.slider .boxes .box1  .box-img img{
+    height: 100%;
+}
+.slider .boxes .box2{
+    /* background-color: rebeccapurple; */
+    width: 70%;
+    text-align: right;
+
+}
+.slider .boxes .box2 .metn{
+    padding-bottom: 8.4rem;
+    text-align: right;
+}
+.slider .boxes .box2 .metn h3{
+    font-size: 26px;
+
+}
+.slider .boxes .box2 .metn .qiymet span:first-child{
+    font-size: 25px;
+    color: #008000;
+}
+.slider .boxes .box2 .metn .qiymet span{
+    font-size: 16px;
+    color: #FF0000;
+}
+.slider .boxes .box2 h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: right;
+    padding-bottom: 1.6rem;
+}
+
+.slider .boxes .box2 p{
+    font-size: 18px;
+    text-align: right;
+}
+.slider .boxes .box2 a{
+    background: #109E97;
+    display: inline-block;
+    padding: 13px 19px;
+    border: 1px solid #109E97;
+    color: #FFFFFF;
+    text-align: right;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 2rem;
+}
+
+/* table */
+
+
+.table{
+    /* background-color: rebeccapurple; */
+    padding-bottom: 2rem;
+}
+.table  h3{
+    font-size: 20px;
+    text-align: center;
+    margin: 1rem 0;
+
+}
+.table table{
+    width: 100%;
+}
+table th,tr{
+    border-bottom: 1px solid #808080;
+}
+/* books2 */
+
+.books2 .boxes{
+    display: flex;
+    margin: 5rem 0;
+    justify-content: space-between;
+}
+
+.books2 .boxes .box2{
+    text-align: center;
+}
+
+
+/* books */
+footer{
+    text-align: center;
+    color:#fff;
+    background-color: #109E97;
+    padding: 34px 36px;
+}
+
+textarea{
+    opacity: 0.5;
+}
+.name:focus{
+    background-color: yellow;
+}
