@@ -7,6 +7,17 @@ header h2{
     font-size: 49px;
     color: #fff;
     }
+
+    .btn{
+        background: #109E97;
+        display: inline-block;
+        padding: 13px 19px;
+        border: 1px solid #109E97;
+        color: #FFFFFF;
+        font-weight: bold;
+        border-radius: 4px;
+        margin-bottom: 2rem;
+    }
 header{
     background-color: #109E97;
     width: 100%;
@@ -14,7 +25,8 @@ header{
 /* Main div */
 .content{
     /* border: 1px solid red; */
-    width: 80%;
+    width: 60%;
+    max-width:  100rem;
     margin: 0 auto;
 }
 
@@ -41,9 +53,10 @@ nav{
 }
 nav ul {
     display: flex;
-    width: 80%;
+    width: 100%;
     margin:  0 auto;
     justify-content: space-between;
+    max-width: 100rem;
 }
 
 
@@ -56,7 +69,7 @@ nav ul li a{
     color: #fff;
     border-right: 1px solid #fff;
     display: inline-block;
-    padding: 21px 45px;
+    padding: 21px 0;
     flex: auto;
     text-align: center;
     font-size: 16px;
@@ -91,22 +104,21 @@ nav ul li a:visited{
 .slider .boxes{
     display: flex;
     justify-content: space-between;
+    gap: 7rem;
 }
 .slider .boxes .box1{   
-    width: 30%;
+    width: 45%;
 
 }
 .slider .boxes .box1  .box-img{
-    width:300px;
-    height: 450px;
+   width: 100%;
 }
 .slider .boxes .box1  .box-img img{
-    height: 100%;
+   width: 100%;
 }
 .slider .boxes .box2{
     /* background-color: rebeccapurple; */
     width: 70%;
-    text-align: right;
 
 }
 .slider .boxes .box2 .metn{
@@ -132,20 +144,26 @@ nav ul li a:visited{
     padding-bottom: 1.6rem;
 }
 
-.slider .boxes .box2 p{
+.slider .boxes .box2 p:first-of-type{
     font-size: 18px;
     text-align: right;
+    /* background-color: red; */
+    height: 14rem;
+    overflow-y: scroll;
 }
-.slider .boxes .box2 a{
+.slider .boxes .box2 p:last-of-type {
+    text-align: right;
+}
+.slider .boxes .box2 p:last-of-type a{
     background: #109E97;
     display: inline-block;
     padding: 13px 19px;
     border: 1px solid #109E97;
     color: #FFFFFF;
-    text-align: right;
     font-weight: bold;
     border-radius: 4px;
-    margin-top: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 /* table */
@@ -194,3 +212,4 @@ textarea{
 .name:focus{
     background-color: yellow;
 }
+
